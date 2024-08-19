@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    background-color: #299617;
+    color: rgb(243, 242, 238);
+    text-decoration: none;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 15px 8px 15px;
+    box-shadow: 5px 10px 18px rgba(0, 0, 0,0.15);
+
+}
+.button:hover{
+    background-color: white;
+    color: #299617;
+    transition: 0.25s;
+}
+.hero-container{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFFA3;
+}
+
+.title-name{
+   color: /*#83F04D*/ /*#5CF029*/ #80461B; 
+   font-size: 5rem;
+   font-family: Pacifico;
+}
+.title-tag{
+    color: #0D625E /*#299617*/;
+    font-size: 2.5rem;
+    font-family: Josefin Sans; 
+}
+.title-text{
+    margin-bottom: 140px;
+}
+.para{
+    width: 45%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+h2{
+    font-size: 1.9rem;
+    font-family: Oswald;
+    font-weight: 500;
+    color: /*#80461B*/ rgb(128, 214, 14);
+
+}
+hr{
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    margin-top: 20px;
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+    margin: 110px auto;
+}
+.pf{
+    font-family: Montserrat;
+    font-size: 1.05rem;
+    color: #0A6847;
+}
+.block-left{
+    position: absolute;
+    top: 50px;
+    left: 35vh;
+}
+.block-bottom{
+    position: absolute;
+    bottom: 0;
+
+}
+.pfp{
+    border-radius: 120px;
+    border: 2px solid #299617;
+    box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.15);
+}
+.myself-container{
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+.abt-me{
+    margin-bottom: 30px;
+    width: 40%;
+    margin: 30px auto;
+    margin-bottom: 50px;
+}
+.skill-img{
+   border: 3px solid #299617; 
+   box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.25);
+}
+.myself{
+    margin: 20px auto;
+    margin-top: 50px;
+}
+.aboutme-container img{
+    margin-top: 30px;
+}
+@media (min-width: 1100px){
+.skill-container{
+    display: grid;
+    grid-template-columns: 0.6fr 1.2fr;
+    text-align: left;
+    width: 60%;
+    margin: 100px auto;
+    grid-gap: 40px;
+}
+}
+h3{
+    font-family: Oswald;
+    font-size: 1.4rem;
+    color: #62c534;
+}
+@media (max-width:479px){
+   .title-name{
+    font-size: 4rem;
+   }
+   .title-tag{
+    font-size: 2rem;
+   }
+   .block-bottom{
+    width: 380px;
+   }
+   .hero-container{
+    height: 100vh;
+   }
+}
+@media (max-width: 1099px){
+   .skill-para{
+    width: 40%;
+    margin: 10px auto;
+   }
+   .skill-img{
+    margin-top: 70px;
+   }
+   h3{
+    margin: 20px auto;
+   }
+}
+@media (max-width: 800px){
+    .skill-para{
+        width: 50%;
+    }
+}
+@media (max-width:600px){
+    .skill-para{
+        width: 80%;
+    }
+}
+.contact-me{
+    width: 50%;
+    margin: 40px auto;
+    margin-bottom: 60px;
+}
+.footer-container{
+    background-color: #A1DD70;
+    height: 30vh;
+    margin-top: 60px;
+}
+.foot-1{
+    text-align: center;
+    padding-top: 60px
+}
+.end{
+    color: #628d31;
+    text-decoration: none;
+    font-family: Montserrat;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px;
+    font-size: 1rem;
+}
+.copyright{
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+.ek{
+    font-family: Oswald;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+@media (max-width:430px) {
+    .abtme-img{
+        height: 130px;
+    }
+}
+@media (max-width: 584px){
+    .myself-para{
+        width: 60%;
+    }
+}
+@media (max-width: 380px){
+    .myself-para{
+        width: 70%;
+    }
+}
